@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@media screen and (max-width:830px) {
+
+    .sidebar {  
+      width: 100vw;
+      text-align: center;
+    }
+    div.main-content {  
+      display: none;
+    }
+    div.languages { 
+      display: inline-flex;
+    }
+    div#mobilemenu {  
+      background-color:#DBE6FF;
+      display: block;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.554);
+      text-align: center;
+      
+    }
+    div#mobilemenu menu a{ 
+      display: inline-block;
+      border-radius: 10px;
+      padding: 5px;
+      margin: 2px;
+      text-decoration: none;
+      color: #0a1f44;
+      text-align: justify;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+    }
+
+    div#mobilemenu menu a:hover { 
+      background-color:#0a1f44;
+      color: white;
+    }
+
+    div.work {  
+      border:3px solid rgba(0, 0, 0, 0.185);
+      margin: 10px;
+      background-color: aliceblue;
+      color: black;
+      text-align: justify;
+      padding: 10px;
+      border-radius: 15px 0px 15px 0px;
+    }
+
+    div.work > p.job-title { 
+      border-bottom: 3px solid rgba(1, 86, 147, 0.286); 
+    }
+    
+    section h2 {
+      margin-top: 20px;
+      border-bottom: 3px solid rgb(0, 149, 255);
+      }
+      
+    }
