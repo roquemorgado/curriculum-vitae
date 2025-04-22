@@ -104,12 +104,12 @@ body {
 
 .main-content {
   width: 65%;
-  padding: 40px;
+  padding: 0px 40px;
 }
 
 .main-content h2 {
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
   color: #0a1f44;
   border-bottom: 2px solid #74a6f6cf;
   padding-bottom: 5px;
@@ -229,6 +229,11 @@ section.header p {text-indent: 10px;  }
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
     font-size: 1em;
+  }
+
+  .main-content {
+    width: 65%;
+    padding: 0px 32px;
   }
 
   .main-content h2 {
